@@ -22,9 +22,23 @@
     color: white;
 }
 
-.main-container {
+.main-container, .main-container-two{
     display: flex;
     margin: 2px;
+}
+
+.footer {
+    position: fixed;
+    background-image: url(https://www.unleashedrescue.com/wp-content/themes/unleashedpet/images/home-footer-photos.png);
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-size: contain;
+}
+
+.footer h5, .footer h6{
+    color: black;
+    text-align: center;
 }
 
 @media all and (max-width: 1000px) {
@@ -57,7 +71,6 @@
 .side-section {
     display: flex;
     flex-flow: column wrap;
-    /*flex: 1 1 calc(100% / 3 - 4px);*/
 }
 
 .side-box {
@@ -107,5 +120,25 @@
 
 /*ContactUs.html*/
 .contact-container {
+    /*display: flex;
+    flex-flow: column wrap;*/
+    background-color: red;
+    margin: 20px;
+}
+.contact-form {
+    border: 2px solid red;
     background-color: purple;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.radio-buttons input, .radio-buttons label {
+    background-color: yellow;
+    color: black;
+}
+.submit {
+    background-color: aqua;
+    float: right;
 }
