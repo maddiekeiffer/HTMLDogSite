@@ -25,6 +25,8 @@
 .main-container, .main-container-two{
     display: flex;
     margin: 2px;
+    min-height: 100vh;
+    margin-bottom: 80px;
 }
 
 .footer {
@@ -135,11 +137,7 @@
 }
 
 /*ContactUs.html*/
-/*
-.form-container {
-    border-radius: 8px;
-    padding: 20px;
-}*/
+
 .contact-container {
     /*display: flex;
     flex-flow: column wrap;*/
@@ -155,12 +153,13 @@
     display: flex;
     flex-flow: column wrap;
 }
-/*
-.contact-form > label {
-    
-
-}*/
-
+.contact-form label {
+    margin-left: 5px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 5px; 
+    border: none;
+}
 
 .radio-buttons input, .radio-buttons label {
     background-color: #d0bdf4;
