@@ -12,6 +12,7 @@
 .navbar, .navbar a {
     background-color: #a0d2eb;
     color: white;
+    font-weight: bold;
 }
 .navbar a.active {
     background-color: white;
@@ -114,7 +115,6 @@
 .main-section-two {
     display: flex;
     flex-flow: row wrap;
-
 }
 .item-box {
     display: flex;
@@ -137,35 +137,55 @@
 }
 
 /*ContactUs.html*/
-
 .contact-container {
-    /*display: flex;
-    flex-flow: column wrap;*/
     background-color: #8458B3;
     border: 4px solid #8458B3;
     margin: 20px;
     border-bottom: 40px solid #8458B3;
+    border-radius: 5px;
 }
 .contact-form {
-    border: 2px solid #8458B3;
+    border-bottom: 2px solid #8458B3;
     background-color: #d0bdf4;
     color: white;
     display: flex;
     flex-flow: column wrap;
+    border-radius: 5px;
 }
 .contact-form label {
+    font-family: 'Montserrat', sans-serif;
     margin-left: 5px;
 }
-.contact-form input, .contact-form textarea {
+.contact-form input {
     padding: 5px; 
-    border: none;
+    /*border: none;*/
 }
-
+.contact-form textarea {
+    padding: 5px; 
+    margin: 0px 5px 10px 5px;
+}
+.group-form.email label {
+    padding-right: 5px;
+}
+.group-form input {
+    width: 83%;
+}
+.group-form.name {
+    margin-top: 5px;
+}
+.radio-buttons{ 
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
 .radio-buttons input, .radio-buttons label {
     background-color: #d0bdf4;
     color: black;
+    border-radius: 5px;
 }
 .submit {
     background-color: #a0d2eb;
     float: right;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 5px;
+    border-radius: 5px;
 }
